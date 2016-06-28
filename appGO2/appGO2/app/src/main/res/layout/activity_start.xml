@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TTUtitle"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textSize="30dp"
+        android:textIsSelectable="true"
+        android:text="今日總使用時間"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+            android:orientation="horizontal"
+        android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TTUtitle"
+            android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout2">
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/hrValue"
+                android:textSize="@dimen/abc_action_bar_stacked_max_height" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hr"
+                android:id="@+id/tvHR"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:text="57"
+                android:id="@+id/minValue"
+                android:textSize="@dimen/abc_action_bar_stacked_max_height" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="min"
+                android:id="@+id/tvMIN"
+                android:textSize="40dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/cleanearth"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_above="@+id/linearLayout"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_alignWithParentIfMissing="false">
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/btStat"
+                android:background="@mipmap/stat" />
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/btMission"
+                android:background="@mipmap/mission" />
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/btSetting"
+                android:background="@mipmap/setting" />
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/btPoint"
+                android:background="@mipmap/point" />
+
+        </LinearLayout>
+
+</RelativeLayout>
