@@ -1,0 +1,50 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="colorControlNormal">#ff3366</item>
+        <item name="colorControlActivated">#ff3366</item>
+        <item name="colorControlHighlight">#ff3366</item>
+
+        <!--<item name="colorControlNormal">@color/primary_color</item>-->
+        <!--<item name="colorControlActivated">@color/primary_color_dark</item>-->
+    </style>
+    <style name="ListText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@color/primary_color</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="colorAccent">#9310ff</item>
+        <item name="colorControlHighlight">#000000</item>
+        <item name="android:colorPressedHighlight">#DDDDDD</item>
+        <item name="colorPrimary">#000000</item>
+        <item name="colorControlActivated">#DDDDDD</item>
+    </style>
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <!-- actionMenuTextColor is the color of the text of action (menu) items  -->
+        <item name="actionMenuTextColor">@android:color/holo_green_light</item>
+        <!-- Tints the input fields like checkboxes and text fields -->
+
+        <!-- Enable these below if you want clicking icons to trigger a ripple effect -->
+        <!--
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        -->
+    </style>
+
+    <!-- This configures the styles for the title within the Toolbar  -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>
+

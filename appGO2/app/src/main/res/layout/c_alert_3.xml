@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/lay0"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="修改家長監護密碼"
+        android:id="@+id/textView"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#ff3366"
+        android:layout_gravity="center_horizontal" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/setting_password"
+            android:id="@+id/passwordV" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="舊家長監護密碼(預設:7777)"
+            android:id="@+id/t1" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edtOldCode" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/setting_password"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/passwordV2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="新家長監護密碼"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:id="@+id/t2" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edtNewCode" />
+
+
+
+</LinearLayout>

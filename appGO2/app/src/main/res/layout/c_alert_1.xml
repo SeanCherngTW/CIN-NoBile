@@ -1,0 +1,116 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:id="@+id/lay0"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="朋友的信箱帳號"
+        android:id="@+id/textView"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#ff3366"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/lay1"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/setting_gmail"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:text="朋友1的信箱"
+            android:id="@+id/t0" />
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email1" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/setting_gmail"
+            android:id="@+id/passwordV" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="朋友2的信箱"
+            android:id="@+id/t1" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email2" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/setting_gmail"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/passwordV2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="朋友3的信箱"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:id="@+id/t2" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email3" />
+
+</LinearLayout>

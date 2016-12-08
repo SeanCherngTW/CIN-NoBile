@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbarInsert"
+        layout="@layout/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uuuu"
+        android:layout_below="@+id/toolbarInsert"
+        android:weightSum="1"
+        android:layout_above="@+id/linearLayout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="今日挑戰"
+            android:id="@+id/tv1"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"
+            android:textSize="30dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text=""
+            android:id="@+id/tvMission"
+            android:layout_margin="30dp"
+            android:textSize="35dp"
+            android:textColor="#ff3366"
+            android:gravity="center"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="一天只可以玩一次「命運轉轉轉」\n請明天再來看看囉~"
+            android:id="@+id/tv2"
+            android:layout_margin="30dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="0.24"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_alignWithParentIfMissing="false">
+
+        <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btStat"
+        android:padding="3dp"
+        android:layout_marginLeft="2dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="2dp"
+        android:src="@mipmap/m_bt_stat" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btMission"
+            android:padding="3dp"
+            android:layout_marginLeft="2dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="2dp"
+            android:src="@mipmap/m_bt_mission" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btSetting"
+            android:padding="3dp"
+            android:layout_marginLeft="2dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="2dp"
+            android:src="@mipmap/m_bt_setting" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btPoint"
+            android:padding="3dp"
+            android:layout_marginLeft="2dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="2dp"
+            android:src="@mipmap/m_bt_point" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btLeaderboard"
+            android:padding="3dp"
+            android:layout_marginLeft="2dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="2dp"
+            android:src="@mipmap/m_bt_leaderboard" />
+    </LinearLayout>
+
+</RelativeLayout>
