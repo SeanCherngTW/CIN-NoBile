@@ -1,5 +1,5 @@
 # CIN-NoBile
-Information Systems Development Project (Graduation Project of NCU-MIS)
+Information Systems Development Project (Graduation Project of NCU-MIS)<br/>
 Cellphone-Detox by CIN-NoBile team
 
 Available on Google Play
